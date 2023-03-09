@@ -1,12 +1,3 @@
-mtcnn-python
-==============
-+ Install
-<code>
-$ pip3 install mtcnn-python
-</code>
-
-+ Code
-```
 import cv2
 from mtcnn import MTCNN
 
@@ -32,8 +23,3 @@ for item in items:
   cv2.putText(image, f"{int(item['confidence']*100)}", (bounding_box[0], bounding_box[1]), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255))
 cv2.imwrite("output.jpg", image)
 print(items)
-```
-
-+ Result
-![input.jpg](input.jpg)
-![output.jpg](output.jpg)
