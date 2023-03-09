@@ -34,6 +34,6 @@ cv2.imwrite("output.jpg", image)
 print(items)
 ```
 
-+ Result
++ Result (free sample)
 ![input.jpg](input.jpg)
 ![output.jpg](output.jpg)
