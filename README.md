@@ -1,4 +1,4 @@
-mtcnn-python
+mtcnn-python (remove bar log from mtcnn orginal package)
 ==============
 + Install
 ```
