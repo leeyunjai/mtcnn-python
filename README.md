@@ -1,9 +1,9 @@
 mtcnn-python
 ==============
 + Install
-<code>
+```
 $ pip3 install mtcnn-python
-</code>
+```
 
 + Code
 ```
