@@ -19,6 +19,9 @@ setup(
     long_description    = readme,
     url                 = 'https://github.com/leeyunjai/mtcnn-python',
     packages            = find_packages(),
+    package_data                = {'' : ['data/*']},
+    include_package_data        = True,
+    zip_safe                    = False,
     install_requires    = requirements,
     keywords            = 'mtcnn',
     classifiers         = [
