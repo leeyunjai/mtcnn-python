@@ -6,7 +6,7 @@ with open('README.rst') as readme_file:
 
 requirements = [
     'opencv-contrib-python>=4.5.4.60',
-    'tensorflow>=2.9.1',
+    'tensorflow==2.9.1',
 ]
 
 test_requirements = [
